@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "comfyui": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "comfyui-mcp@0.52.206"
+      ]
+    }
+  }
+}

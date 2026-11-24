@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Personal marketplace: my own skills plus pointers to official upstream plugins, so every device gets the same set.",
-    "version": "1.2.0"
+    "version": "1.3.0"
   },
   "plugins": [
     {
@@ -408,6 +408,229 @@
       "strict": false,
       "skills": [
         "./"
+      ]
+    },
+    {
+      "name": "impeccable",
+      "description": "Impeccable design skill by Paul Bakaus.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pbakaus/impeccable.git",
+        "path": "plugin"
+      }
+    },
+    {
+      "name": "ffmpeg-skill",
+      "description": "Local FFmpeg editing, captions, exports (kajisho5).",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/kajisho5/ffmpeg-skill.git",
+        "path": "ffmpeg-skill",
+        "ref": "plugin"
+      }
+    },
+    {
+      "name": "remotion",
+      "description": "Official Remotion skills.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/remotion-dev/skills.git"
+      },
+      "strict": false,
+      "skills": [
+        "./skills/remotion-best-practices",
+        "./skills/remotion-captions",
+        "./skills/remotion-create",
+        "./skills/remotion-docs",
+        "./skills/remotion-interactivity",
+        "./skills/remotion-license",
+        "./skills/remotion-maps",
+        "./skills/remotion-markup",
+        "./skills/remotion-multimedia",
+        "./skills/remotion-render",
+        "./skills/remotion-saas",
+        "./skills/remotion-studio",
+        "./skills/remotion-upgrade"
+      ]
+    },
+    {
+      "name": "ai-image-prompts",
+      "description": "10k+ image prompt library for any model (YouMind).",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/YouMind-OpenLab/ai-image-prompts-skill.git"
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "comfyui-skills",
+      "description": "Run ComfyUI workflows via CLI (HuangYuChuh).",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HuangYuChuh/ComfyUI_Skills_OpenClaw.git"
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "comfyui-agent-kit",
+      "description": "Vendored ComfyUI-Agent-Kit (Apache-2.0) with comfyui-mcp pinned to 0.52.206.",
+      "source": "./plugins/comfyui-agent-kit"
+    },
+    {
+      "name": "comfyui-expert",
+      "description": "ComfyUI expert skills (MCKRUZ).",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/MCKRUZ/ComfyUI-Expert.git"
+      },
+      "strict": false,
+      "skills": [
+        "./skills/comfyui-api",
+        "./skills/comfyui-character-gen",
+        "./skills/comfyui-inventory",
+        "./skills/comfyui-lora-training",
+        "./skills/comfyui-prompt-engineer",
+        "./skills/comfyui-prompt-interview",
+        "./skills/comfyui-research",
+        "./skills/comfyui-troubleshooter",
+        "./skills/comfyui-video-pipeline",
+        "./skills/comfyui-video-production",
+        "./skills/comfyui-voice-pipeline",
+        "./skills/comfyui-workflow-builder",
+        "./skills/project-manager",
+        "./skills/video-assembly",
+        "./skills/video-publisher"
+      ]
+    },
+    {
+      "name": "n8n-skills",
+      "description": "n8n workflow skills (needs n8n-mcp).",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/czlonkowski/n8n-skills.git"
+      }
+    },
+    {
+      "name": "wordpress",
+      "description": "Official WordPress agent skills.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/WordPress/agent-skills.git"
+      },
+      "strict": false,
+      "skills": [
+        "./skills/blueprint",
+        "./skills/wordpress-router",
+        "./skills/wp-abilities-api",
+        "./skills/wp-abilities-audit",
+        "./skills/wp-abilities-verify",
+        "./skills/wp-ability-development",
+        "./skills/wp-block-development",
+        "./skills/wp-block-themes",
+        "./skills/wp-env",
+        "./skills/wp-interactivity-api",
+        "./skills/wp-patterns",
+        "./skills/wp-performance",
+        "./skills/wp-phpstan",
+        "./skills/wp-playground",
+        "./skills/wp-plugin-development",
+        "./skills/wp-plugin-directory-guidelines",
+        "./skills/wp-project-triage",
+        "./skills/wp-rest-api",
+        "./skills/wp-wpcli-and-ops",
+        "./skills/wpds"
+      ]
+    },
+    {
+      "name": "heygen",
+      "description": "Official HeyGen skills (MCP uses paid HeyGen credits after OAuth).",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/heygen-com/skills.git"
+      }
+    },
+    {
+      "name": "suede-skills",
+      "description": "Suede creator skills: design + marketing.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/JasonColapietro/suede-creator-skills.git"
+      }
+    },
+    {
+      "name": "cut-video",
+      "description": "Cut silences from videos.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/louisedesadeleer/cut-video.git"
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "claude-video",
+      "description": "Vendored claude-video suite without hooks.",
+      "source": "./plugins/claude-video"
+    },
+    {
+      "name": "iran-market-skills",
+      "description": "Persian RTL UX, Persian SEO, Iran market research.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sajadjanat/iran-market-skills.git"
+      },
+      "strict": false,
+      "skills": [
+        "./skills/iran-market-discovery",
+        "./skills/iran-product-benchmark",
+        "./skills/persian-brand-copy",
+        "./skills/persian-rtl-ux",
+        "./skills/persian-seo"
+      ]
+    },
+    {
+      "name": "claude-ig",
+      "description": "Instagram skills (nicojunk).",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nicojunk/claude-ig.git"
+      },
+      "strict": false,
+      "skills": [
+        "./skills/ig",
+        "./skills/ig-affiliate",
+        "./skills/ig-analyze",
+        "./skills/ig-audit",
+        "./skills/ig-calendar",
+        "./skills/ig-caption",
+        "./skills/ig-carousel",
+        "./skills/ig-comment",
+        "./skills/ig-competitor",
+        "./skills/ig-hook",
+        "./skills/ig-reel",
+        "./skills/ig-repurpose",
+        "./skills/ig-story",
+        "./skills/ig-strategy"
+      ]
+    },
+    {
+      "name": "instagram-carousel",
+      "description": "Instagram carousel generator.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jeevanbavandla/instagram-carousel-skill.git"
+      },
+      "strict": false,
+      "skills": [
+        "./instagram-carousel"
       ]
     }
   ]

@@ -1,0 +1,1 @@
+{ "name": "claude-video", "version": "1.1.1", "description": "Vendored from AgriciDaniel/claude-video (MIT) without its hooks, which assume a manual install path.", "author": {"name":"AgriciDaniel","url":"https://github.com/AgriciDaniel"}, "license": "MIT", "skills": "./skills/" }
