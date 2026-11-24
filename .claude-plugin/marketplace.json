@@ -1,15 +1,149 @@
 {
   "name": "my-claude-skills",
-  "owner": { "name": "ALiDanae" },
-  "metadata": { "description": "Personal marketplace: my own skills plus pointers to official upstream plugins, so every device gets the same set.", "version": "1.0.0" },
+  "owner": {
+    "name": "ALiDanae"
+  },
+  "metadata": {
+    "description": "Personal marketplace: my own skills plus pointers to official upstream plugins, so every device gets the same set.",
+    "version": "1.1.0"
+  },
   "plugins": [
-    { "name": "local-skills", "source": "./plugins/local-skills", "description": "My personal skill collection (43 skills)." },
-    { "name": "example-skills", "description": "Anthropic example skills (canvas-design, skill-creator, frontend-design, ...).", "source": { "source": "url", "url": "https://github.com/anthropics/skills.git" }, "strict": false,
-      "skills": ["./skills/algorithmic-art","./skills/brand-guidelines","./skills/canvas-design","./skills/doc-coauthoring","./skills/frontend-design","./skills/internal-comms","./skills/mcp-builder","./skills/skill-creator","./skills/slack-gif-creator","./skills/theme-factory","./skills/web-artifacts-builder","./skills/webapp-testing"] },
-    { "name": "design", "description": "Anthropic Design plugin (knowledge-work-plugins).", "source": { "source": "git-subdir", "url": "https://github.com/anthropics/knowledge-work-plugins.git", "path": "design" } },
-    { "name": "gsap-skills", "description": "Official GSAP skills by GreenSock.", "source": { "source": "url", "url": "https://github.com/greensock/gsap-skills.git" } },
-    { "name": "ui-ux-pro-max", "description": "UI UX Pro Max by nextlevelbuilder.", "source": { "source": "url", "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git" } },
-    { "name": "genjutsu", "description": "Genjutsu by AThevon.", "source": { "source": "url", "url": "https://github.com/AThevon/genjutsu.git" } },
-    { "name": "linkedin-skills", "description": "LinkedIn marketing skills by Serge Bulaev.", "source": { "source": "url", "url": "https://github.com/sergebulaev/linkedin-skills.git" } }
+    {
+      "name": "local-skills",
+      "source": "./plugins/local-skills",
+      "description": "My personal skill collection (43 skills)."
+    },
+    {
+      "name": "example-skills",
+      "description": "Anthropic example skills (canvas-design, skill-creator, frontend-design, ...).",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/anthropics/skills.git"
+      },
+      "strict": false,
+      "skills": [
+        "./skills/algorithmic-art",
+        "./skills/brand-guidelines",
+        "./skills/canvas-design",
+        "./skills/doc-coauthoring",
+        "./skills/frontend-design",
+        "./skills/internal-comms",
+        "./skills/mcp-builder",
+        "./skills/skill-creator",
+        "./skills/slack-gif-creator",
+        "./skills/theme-factory",
+        "./skills/web-artifacts-builder",
+        "./skills/webapp-testing"
+      ]
+    },
+    {
+      "name": "design",
+      "description": "Anthropic Design plugin (knowledge-work-plugins).",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/knowledge-work-plugins.git",
+        "path": "design"
+      }
+    },
+    {
+      "name": "gsap-skills",
+      "description": "Official GSAP skills by GreenSock.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/greensock/gsap-skills.git"
+      }
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "description": "UI UX Pro Max by nextlevelbuilder.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git"
+      }
+    },
+    {
+      "name": "genjutsu",
+      "description": "Genjutsu by AThevon.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AThevon/genjutsu.git"
+      }
+    },
+    {
+      "name": "linkedin-skills",
+      "description": "LinkedIn marketing skills by Serge Bulaev.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sergebulaev/linkedin-skills.git"
+      }
+    },
+    {
+      "name": "sales-skills",
+      "description": "21 B2B sales skills by Craig Hewitt.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/thecraighewitt/sales-skills.git"
+      },
+      "strict": false,
+      "skills": [
+        "./skills/buyer-persona",
+        "./skills/call-debrief",
+        "./skills/cold-call",
+        "./skills/cold-email",
+        "./skills/competitive-intel",
+        "./skills/demo-script",
+        "./skills/direct-mail",
+        "./skills/discovery-call",
+        "./skills/event-networking",
+        "./skills/forecast",
+        "./skills/lead-research",
+        "./skills/linkedin-outreach",
+        "./skills/negotiation",
+        "./skills/objection-handling",
+        "./skills/outbound-sequence",
+        "./skills/pipeline-review",
+        "./skills/proposal-pricing",
+        "./skills/referral-intro",
+        "./skills/sales-comp",
+        "./skills/sales-context",
+        "./skills/win-loss-analysis"
+      ]
+    },
+    {
+      "name": "marketing-skills",
+      "description": "Marketing skills by Corey Haines (CRO, copywriting, SEO, ads, growth).",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/coreyhaines31/marketingskills.git"
+      }
+    },
+    {
+      "name": "book-to-skill",
+      "description": "Convert books and documents into agent skills (official repo by virgiliojr94).",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/virgiliojr94/book-to-skill.git"
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "hyperframes",
+      "description": "HyperFrames by HeyGen: HTML to video.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/heygen-com/hyperframes.git"
+      }
+    },
+    {
+      "name": "content-skills",
+      "description": "Ootto content / Instagram reel skills.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Ootto-AI/claude-content-skills.git"
+      }
+    }
   ]
 }
