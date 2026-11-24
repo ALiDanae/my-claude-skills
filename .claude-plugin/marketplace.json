@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Personal marketplace: my own skills plus pointers to official upstream plugins, so every device gets the same set.",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   "plugins": [
     {
@@ -144,6 +144,271 @@
         "source": "url",
         "url": "https://github.com/Ootto-AI/claude-content-skills.git"
       }
+    },
+    {
+      "name": "claude-seo",
+      "description": "Full SEO plugin by AgriciDaniel (includes a PostToolUse schema-validation hook).",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AgriciDaniel/claude-seo.git"
+      }
+    },
+    {
+      "name": "claude-blog",
+      "description": "Blog writing plugin by AgriciDaniel.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AgriciDaniel/claude-blog.git"
+      }
+    },
+    {
+      "name": "alireza-marketing",
+      "description": "47 marketing skills from alirezarezvani/claude-skills.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alirezarezvani/claude-skills.git",
+        "path": "marketing-skill"
+      }
+    },
+    {
+      "name": "alireza-business-growth",
+      "description": "Business growth / sales skills from alirezarezvani/claude-skills.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alirezarezvani/claude-skills.git",
+        "path": "business-growth"
+      }
+    },
+    {
+      "name": "gtm-skills",
+      "description": "GTM metrics skills by Chad Boyda.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/chadboyda/agent-gtm-skills.git"
+      },
+      "strict": false,
+      "skills": [
+        "./skills/positioning-icp",
+        "./skills/ai-pricing",
+        "./skills/sales-motion-design",
+        "./skills/ai-cold-outreach",
+        "./skills/ai-sdr",
+        "./skills/lead-enrichment",
+        "./skills/video-outreach",
+        "./skills/multi-platform-launch",
+        "./skills/ai-seo",
+        "./skills/social-selling",
+        "./skills/content-to-pipeline",
+        "./skills/ai-ugc-ads",
+        "./skills/paid-creative-ai",
+        "./skills/expansion-retention",
+        "./skills/partner-affiliate",
+        "./skills/gtm-engineering",
+        "./skills/solo-founder-gtm",
+        "./skills/gtm-metrics"
+      ]
+    },
+    {
+      "name": "nano-banana-prompts",
+      "description": "Image prompt recommender (YouMind).",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill.git"
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "social-media-skills",
+      "description": "Voice-based social content skills by charlie947.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/charlie947/social-media-skills.git"
+      },
+      "strict": false,
+      "skills": [
+        "./skills/analytics-dashboard",
+        "./skills/content-matrix",
+        "./skills/gemini-carousel",
+        "./skills/gemini-infographic",
+        "./skills/graphic-designer",
+        "./skills/hook-generator",
+        "./skills/newsletter-voice",
+        "./skills/niche-research",
+        "./skills/pinned-comment",
+        "./skills/post-formatter",
+        "./skills/post-scorer",
+        "./skills/post-writer",
+        "./skills/profile-optimizer",
+        "./skills/quote-post",
+        "./skills/reels-scripting",
+        "./skills/voice-builder",
+        "./skills/youtube-thumbnail"
+      ]
+    },
+    {
+      "name": "ai-builder-club",
+      "description": "AI Builder Club open skills.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AI-Builder-Club/skills.git"
+      }
+    },
+    {
+      "name": "brianwagner-marketing",
+      "description": "AI marketing skills by Brian Wagner.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/BrianRWagner/ai-marketing-claude-code-skills.git"
+      },
+      "strict": false,
+      "skills": [
+        "./ai-discoverability-audit",
+        "./brand-positioning-audit",
+        "./brand-voice-extractor",
+        "./case-study-builder",
+        "./cold-outreach-sequence",
+        "./competitor-intel-brief",
+        "./content-idea-generator",
+        "./daily-briefing-builder",
+        "./founder-intelligence",
+        "./homepage-audit",
+        "./linkedin-authority-builder",
+        "./linkedin-profile-optimizer",
+        "./marketing-principles",
+        "./meeting-prep",
+        "./positioning-basics",
+        "./social-card-gen",
+        "./testimonial-collector",
+        "./tweet-draft-reviewer",
+        "./vault-cleanup-auditor",
+        "./voice-extractor"
+      ]
+    },
+    {
+      "name": "ai-marketing-claude",
+      "description": "Packaged marketing team by zubair-trabzada.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/zubair-trabzada/ai-marketing-claude.git"
+      },
+      "strict": false,
+      "skills": [
+        "./market",
+        "./skills/market-ads",
+        "./skills/market-audit",
+        "./skills/market-brand",
+        "./skills/market-competitors",
+        "./skills/market-copy",
+        "./skills/market-emails",
+        "./skills/market-funnel",
+        "./skills/market-landing",
+        "./skills/market-launch",
+        "./skills/market-proposal",
+        "./skills/market-report",
+        "./skills/market-report-pdf",
+        "./skills/market-seo",
+        "./skills/market-social"
+      ]
+    },
+    {
+      "name": "cogny-marketing",
+      "description": "Cogny marketing skills (premium ones need a paid Cogny account).",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cognyai/claude-code-marketing-skills.git"
+      },
+      "strict": false,
+      "skills": [
+        "./skills/ad-copy-writer",
+        "./skills/ad-kill-rules",
+        "./skills/brand-kit",
+        "./skills/buying-triggers",
+        "./skills/campaign-ledger",
+        "./skills/closed-lost-revival",
+        "./skills/cogny",
+        "./skills/community-pulse",
+        "./skills/competitor-analysis",
+        "./skills/conversion-debug",
+        "./skills/creative-engine",
+        "./skills/crm-icp-analysis",
+        "./skills/crm-sales-momentum",
+        "./skills/customer-language",
+        "./skills/cwv-audit",
+        "./skills/deliverability-check",
+        "./skills/demand-gen-audit",
+        "./skills/drop-off-rescue",
+        "./skills/email-report",
+        "./skills/ga4-audit",
+        "./skills/ga4-bigquery-schema",
+        "./skills/ga4-events",
+        "./skills/ga4-measurement-plan",
+        "./skills/ga4-monitor",
+        "./skills/gaql-reference",
+        "./skills/google-ads-audit",
+        "./skills/google-ads-monitor",
+        "./skills/google-ads-scripts",
+        "./skills/gtm-audit",
+        "./skills/gtm-monitor",
+        "./skills/gtm-setup",
+        "./skills/gtm-tracking-plan",
+        "./skills/landing-page-review",
+        "./skills/lead-qualification",
+        "./skills/linkedin-ads-audit",
+        "./skills/linkedin-launch-video",
+        "./skills/linkedin-micro-campaigns",
+        "./skills/marketing-brain",
+        "./skills/marketing-engineer",
+        "./skills/meta-capi",
+        "./skills/non-commodity-content",
+        "./skills/performance-memo",
+        "./skills/pmax-audit",
+        "./skills/pmax-launch-kit",
+        "./skills/pre-send-qa",
+        "./skills/reddit-launch-video",
+        "./skills/revenue-audit",
+        "./skills/search-campaign-audit",
+        "./skills/search-demand",
+        "./skills/seo-audit",
+        "./skills/seo-monitor",
+        "./skills/shopping-campaign-audit",
+        "./skills/social-engine",
+        "./skills/structured-data",
+        "./skills/subject-line-lab",
+        "./skills/submit-to-agentlaunch",
+        "./skills/tiktok-launch-video",
+        "./skills/utm-builder",
+        "./skills/video-to-gif",
+        "./skills/website-migration-audit",
+        "./skills/welcome-series",
+        "./skills/winback-engine"
+      ]
+    },
+    {
+      "name": "stickman-video",
+      "description": "Stickman video director (large repo, ~780MB).",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kaomei/stickman-video-director.git"
+      },
+      "strict": false,
+      "skills": [
+        "./skills/directing-stickman-videos"
+      ]
+    },
+    {
+      "name": "x-mentor",
+      "description": "X (Twitter) creator playbook skill.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/alchaincyf/x-mentor-skill.git"
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ]
     }
   ]
 }
