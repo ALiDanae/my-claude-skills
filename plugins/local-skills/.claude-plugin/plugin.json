@@ -1,0 +1,6 @@
+{
+  "name": "local-skills",
+  "description": "Personal skill collection synced across devices (HyperFrames video skills, Three.js, motion design, SEO, browsing and more).",
+  "version": "1.0.0",
+  "skills": "./skills/"
+}

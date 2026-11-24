@@ -1,0 +1,15 @@
+{
+  "name": "my-claude-skills",
+  "owner": { "name": "ALiDanae" },
+  "metadata": { "description": "Personal marketplace: my own skills plus pointers to official upstream plugins, so every device gets the same set.", "version": "1.0.0" },
+  "plugins": [
+    { "name": "local-skills", "source": "./plugins/local-skills", "description": "My personal skill collection (43 skills)." },
+    { "name": "example-skills", "description": "Anthropic example skills (canvas-design, skill-creator, frontend-design, ...).", "source": { "source": "url", "url": "https://github.com/anthropics/skills.git" }, "strict": false,
+      "skills": ["./skills/algorithmic-art","./skills/brand-guidelines","./skills/canvas-design","./skills/doc-coauthoring","./skills/frontend-design","./skills/internal-comms","./skills/mcp-builder","./skills/skill-creator","./skills/slack-gif-creator","./skills/theme-factory","./skills/web-artifacts-builder","./skills/webapp-testing"] },
+    { "name": "design", "description": "Anthropic Design plugin (knowledge-work-plugins).", "source": { "source": "git-subdir", "url": "https://github.com/anthropics/knowledge-work-plugins.git", "path": "design" } },
+    { "name": "gsap-skills", "description": "Official GSAP skills by GreenSock.", "source": { "source": "url", "url": "https://github.com/greensock/gsap-skills.git" } },
+    { "name": "ui-ux-pro-max", "description": "UI UX Pro Max by nextlevelbuilder.", "source": { "source": "url", "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git" } },
+    { "name": "genjutsu", "description": "Genjutsu by AThevon.", "source": { "source": "url", "url": "https://github.com/AThevon/genjutsu.git" } },
+    { "name": "linkedin-skills", "description": "LinkedIn marketing skills by Serge Bulaev.", "source": { "source": "url", "url": "https://github.com/sergebulaev/linkedin-skills.git" } }
+  ]
+}
